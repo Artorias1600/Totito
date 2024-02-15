@@ -1,0 +1,16 @@
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\bin\Debug\net7.0-windows\Totito.exe
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\bin\Debug\net7.0-windows\Totito.deps.json
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\bin\Debug\net7.0-windows\Totito.runtimeconfig.json
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\bin\Debug\net7.0-windows\Totito.dll
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\bin\Debug\net7.0-windows\Totito.pdb
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\Totito.Form1.resources
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\Totito.csproj.GenerateResource.cache
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\Totito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\Totito.AssemblyInfoInputs.cache
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\Totito.AssemblyInfo.cs
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\Totito.csproj.CoreCompileInputs.cache
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\Totito.dll
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\refint\Totito.dll
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\Totito.pdb
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\Totito.genruntimeconfig.cache
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\ref\Totito.dll
