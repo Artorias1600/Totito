@@ -28,11 +28,30 @@ namespace Totito
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (jugador != "") {
+             if (jugador != "") {
                 if (button1.Text == "")
                 {
                     button1.Text = jugador;
                     contador++;
+                    if (contador > 5)
+                    {
+                        //horizontal
+                        if (button1.Text == button2.Text && button1.Text == button3.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                        //vertical
+                        if (button1.Text == button4.Text && button1.Text == button7.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                        //diagonal
+                        if (button1.Text == button5.Text && button1.Text == button9.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                    }
+
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -58,6 +77,22 @@ namespace Totito
                 if (button2.Text == "")
                 {
                     button2.Text = jugador;
+                    contador++;
+
+                    if (contador > 5)
+                    {
+                        //horizontal
+                        if (button2.Text == button1.Text && button2.Text == button3.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                        //vertical
+                        if (button2.Text == button5.Text && button2.Text == button8.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                    }
+
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -83,6 +118,27 @@ namespace Totito
                 if (button3.Text == "")
                 {
                     button3.Text = jugador;
+                    contador++;
+
+                    if (contador > 5)
+                    {
+                        //horizontal
+                        if (button3.Text == button2.Text && button3.Text == button1.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                        //vertical
+                        if (button3.Text == button6.Text && button3.Text == button9.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                        //diagonal
+                        if (button3.Text == button5.Text && button3.Text == button7.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                    }
+
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -108,6 +164,22 @@ namespace Totito
                 if (button4.Text == "")
                 {
                     button4.Text = jugador;
+                    contador++;
+
+                    if (contador > 5)
+                    {
+                        //horizontal
+                        if (button4.Text == button5.Text && button4.Text == button6.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                        //vertical
+                        if (button4.Text == button1.Text && button4.Text == button7.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                    }
+
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -133,6 +205,27 @@ namespace Totito
                 if (button5.Text == "")
                 {
                     button5.Text = jugador;
+                    contador++;
+
+                    if (contador > 5)
+                    {
+                        //horizontal
+                        if (button5.Text == button4.Text && button5.Text == button6.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                        //vertical
+                        if (button5.Text == button2.Text && button5.Text == button8.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                        //diagonal
+                        if (button5.Text == button1.Text && button5.Text == button9.Text)
+                        {
+                            label2.Text = "El ganador es el jugador " + jugador;
+                        }
+                    }
+
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -158,6 +251,7 @@ namespace Totito
                 if (button6.Text == "")
                 {
                     button6.Text = jugador;
+                    contador++;
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -183,6 +277,7 @@ namespace Totito
                 if (button7.Text == "")
                 {
                     button7.Text = jugador;
+                    contador++;
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -208,6 +303,7 @@ namespace Totito
                 if (button8.Text == "")
                 {
                     button8.Text = jugador;
+                    contador++;
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -233,6 +329,7 @@ namespace Totito
                 if (button9.Text == "")
                 {
                     button9.Text = jugador;
+                    contador++;
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
