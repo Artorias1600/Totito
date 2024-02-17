@@ -40,7 +40,6 @@
             button9 = new Button();
             button10 = new Button();
             button11 = new Button();
-            label2 = new Label();
             button12 = new Button();
             SuspendLayout();
             // 
@@ -57,11 +56,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(577, 43);
+            label1.Location = new Point(536, 44);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
+            label1.Size = new Size(156, 20);
             label1.TabIndex = 1;
-            label1.Text = "label1";
+            label1.Text = "Seleccione un jugador";
             // 
             // button2
             // 
@@ -167,15 +166,6 @@
             button11.UseVisualStyleBackColor = true;
             button11.Click += button11_Click;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(377, 382);
-            label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 12;
-            label2.Text = "label2";
-            // 
             // button12
             // 
             button12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -195,7 +185,6 @@
             BackColor = Color.ForestGreen;
             ClientSize = new Size(800, 450);
             Controls.Add(button12);
-            Controls.Add(label2);
             Controls.Add(button11);
             Controls.Add(button10);
             Controls.Add(button9);
@@ -229,7 +218,6 @@
         private Button button9;
         private Button button10;
         private Button button11;
-        private Label label2;
         private Button button12;
     }
 }

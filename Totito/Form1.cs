@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace Totito
 {
     public partial class Form1 : Form
@@ -9,6 +11,7 @@ namespace Totito
 
         string jugador = "";
         int contador = 0;
+        bool ganador = false;
 
         private void button10_Click(object sender, EventArgs e)
         {
@@ -38,17 +41,17 @@ namespace Totito
                         //horizontal
                         if (button1.Text == button2.Text && button1.Text == button3.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
                         }
                         //vertical
                         if (button1.Text == button4.Text && button1.Text == button7.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
                         }
                         //diagonal
                         if (button1.Text == button5.Text && button1.Text == button9.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
                         }
                     }
 
@@ -84,12 +87,13 @@ namespace Totito
                         //horizontal
                         if (button2.Text == button1.Text && button2.Text == button3.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
                         }
                         //vertical
                         if (button2.Text == button5.Text && button2.Text == button8.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+
                         }
                     }
 
@@ -125,17 +129,20 @@ namespace Totito
                         //horizontal
                         if (button3.Text == button2.Text && button3.Text == button1.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
                         }
                         //vertical
                         if (button3.Text == button6.Text && button3.Text == button9.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
                         }
                         //diagonal
                         if (button3.Text == button5.Text && button3.Text == button7.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
                         }
                     }
 
@@ -165,18 +172,21 @@ namespace Totito
                 {
                     button4.Text = jugador;
                     contador++;
+                    ganador = false;
 
                     if (contador > 5)
                     {
                         //horizontal
                         if (button4.Text == button5.Text && button4.Text == button6.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
                         }
                         //vertical
                         if (button4.Text == button1.Text && button4.Text == button7.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
                         }
                     }
 
@@ -212,17 +222,20 @@ namespace Totito
                         //horizontal
                         if (button5.Text == button4.Text && button5.Text == button6.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
                         }
                         //vertical
                         if (button5.Text == button2.Text && button5.Text == button8.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
                         }
                         //diagonal
                         if (button5.Text == button1.Text && button5.Text == button9.Text)
                         {
-                            label2.Text = "El ganador es el jugador " + jugador;
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
                         }
                     }
 
@@ -252,6 +265,23 @@ namespace Totito
                 {
                     button6.Text = jugador;
                     contador++;
+
+                    if (contador > 5)
+                    {
+                        //horizontal
+                        if (button6.Text == button5.Text && button6.Text == button4.Text)
+                        {
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
+                        }
+                        //vertical
+                        if (button6.Text == button3.Text && button6.Text == button9.Text)
+                        {
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
+                        }
+                    }
+
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -278,6 +308,29 @@ namespace Totito
                 {
                     button7.Text = jugador;
                     contador++;
+
+                    if (contador > 5)
+                    {
+                        //horizontal
+                        if (button7.Text == button8.Text && button7.Text == button9.Text)
+                        {
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
+                        }
+                        //vertical
+                        if (button7.Text == button1.Text && button7.Text == button4.Text)
+                        {
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
+                        }
+                        //diagonal
+                        if (button7.Text == button3.Text && button7.Text == button5.Text)
+                        {
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
+                        }
+                    }
+
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -304,6 +357,23 @@ namespace Totito
                 {
                     button8.Text = jugador;
                     contador++;
+
+                    if (contador > 5)
+                    {
+                        //horizontal
+                        if (button8.Text == button7.Text && button8.Text == button9.Text)
+                        {
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
+                        }
+                        //vertical
+                        if (button8.Text == button2.Text && button8.Text == button5.Text)
+                        {
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
+                        }
+                    }
+
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -330,6 +400,30 @@ namespace Totito
                 {
                     button9.Text = jugador;
                     contador++;
+
+                    if (contador > 5)
+                    {
+                        //horizontal
+                        if (button9.Text == button7.Text && button9.Text == button8.Text)
+                        {
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
+                        }
+                        //vertical
+                        if (button9.Text == button6.Text && button9.Text == button3.Text)
+                        {
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
+                        }
+                        //diagonal
+                        if (button9.Text == button5.Text && button9.Text == button1.Text)
+                        {
+                            MessageBox.Show("El ganador es el jugador " + jugador);
+                            button12_Click(null, null);
+                        }
+
+                    }
+
                     if (jugador == button11.Text)
                     {
                         jugador = button10.Text;
@@ -350,16 +444,8 @@ namespace Totito
 
         private void button12_Click(object sender, EventArgs e)
         {
-            button1.Text = "";
-            button2.Text = "";
-            button3.Text = "";
-            button4.Text = "";
-            button5.Text = "";
-            button6.Text = "";
-            button7.Text = "";
-            button8.Text = "";
-            button9.Text = "";
-            jugador = "";
+            button1.Text = button2.Text = button3.Text = button4.Text = button5.Text = 
+            button6.Text = button7.Text = button8.Text = button9.Text = jugador = "";
         }
     }
 }
