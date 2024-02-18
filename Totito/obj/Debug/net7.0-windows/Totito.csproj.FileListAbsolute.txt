@@ -31,3 +31,4 @@ C:\Users\Gerardo\Desktop\GIT\Totito\Totito\obj\Debug\net7.0-windows\refint\Totit
 C:\Users\Gerardo\Desktop\GIT\Totito\Totito\obj\Debug\net7.0-windows\Totito.pdb
 C:\Users\Gerardo\Desktop\GIT\Totito\Totito\obj\Debug\net7.0-windows\Totito.genruntimeconfig.cache
 C:\Users\Gerardo\Desktop\GIT\Totito\Totito\obj\Debug\net7.0-windows\ref\Totito.dll
+C:\Users\lmorales\Desktop\data_prb\Totito\Totito\obj\Debug\net7.0-windows\Totito.sourcelink.json

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gerardo\\Desktop\\GIT\\Totito\\Totito\\Totito.csproj": {}
+    "C:\\Users\\lmorales\\Desktop\\data_prb\\Totito\\Totito\\Totito.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gerardo\\Desktop\\GIT\\Totito\\Totito\\Totito.csproj": {
+    "C:\\Users\\lmorales\\Desktop\\data_prb\\Totito\\Totito\\Totito.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gerardo\\Desktop\\GIT\\Totito\\Totito\\Totito.csproj",
+        "projectUniqueName": "C:\\Users\\lmorales\\Desktop\\data_prb\\Totito\\Totito\\Totito.csproj",
         "projectName": "Totito",
-        "projectPath": "C:\\Users\\Gerardo\\Desktop\\GIT\\Totito\\Totito\\Totito.csproj",
-        "packagesPath": "C:\\Users\\Gerardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gerardo\\Desktop\\GIT\\Totito\\Totito\\obj\\",
+        "projectPath": "C:\\Users\\lmorales\\Desktop\\data_prb\\Totito\\Totito\\Totito.csproj",
+        "packagesPath": "C:\\Users\\lmorales\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lmorales\\Desktop\\data_prb\\Totito\\Totito\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gerardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lmorales\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -50,24 +55,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.15, 7.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.15, 7.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.15, 7.0.15]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.15, 7.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -76,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

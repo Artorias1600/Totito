@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mZ0kZDs9s/pSz3xGbMz99FjU7cBA6FJs3dCCusstuharQ0GJ3IiFU3cE39yXsh5BGdYP8k5VXHR0RBqN/Sry7g==",
+  "dgSpecHash": "yIsDv4TOBu3KhKkG/969/egEKtY0ghsy4zJWd00Zxcxd9yNYO85Kiuw/Kpqvlq6BGtWYjvFaviNKE2YbYwxI+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gerardo\\Desktop\\GIT\\Totito\\Totito\\Totito.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Gerardo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\Gerardo\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\Gerardo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\Gerardo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\lmorales\\Desktop\\data_prb\\Totito\\Totito\\Totito.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
